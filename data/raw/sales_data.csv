@@ -1,0 +1,13 @@
+order_id,customer_id,customer_name,product,quantity,unit_price,order_date,status
+1001,C001,Anu,Mobile,1,25000,2026-09-01,Completed
+1002,C002,Ravi,Laptop,1,55000,2026-09-01,Completed
+1003,C003,Meera,Headphones,2,1500,2026-09-02,Completed
+1004,C004,John,Keyboard,1,2500,2026-09-02,Pending
+1005,C005,Divya,Mouse,3,800,2026-09-03,Completed
+1006,C006,Arun,Monitor,1,18000,2026-09-03,Completed
+1007,C007,,Laptop,1,60000,2026-09-04,Completed
+1008,C008,Sneha,Mobile,-1,30000,2026-09-04,Completed
+1009,C009,Jose,Keyboard,2,,2026-09-05,Completed
+1010,C010,Asha,Mouse,2,900,2026-09-05,Cancelled
+1010,C010,Asha,Mouse,2,900,2026-09-05,Cancelled
+1011,,Rahul,Monitor,1,22000,2026-09-06,Completed
