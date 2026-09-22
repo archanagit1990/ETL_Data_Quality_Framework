@@ -1,0 +1,24 @@
+STEP 1
+Activate environment
+        ↓
+.venv\Scripts\activate
+
+STEP 2
+Run ETL
+        ↓
+python src/run_pipeline.py
+
+STEP 3
+Verify database
+        ↓
+psql -U postgres -d etl_quality_db
+
+STEP 4
+Run all tests
+        ↓
+pytest
+
+STEP 5
+Generate report
+        ↓
+pytest --html=reports/etl_test_report.html --self-contained-html
